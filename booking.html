@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Страница бронирования</title>
+        <link rel="stylesheet" href="booking.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="logo1.png" width="200" 
+                height="150"></a>
+<nav>
+<ul class = "menu">
+		<li><a href = "branches.html">Филиалы</a></li>
+		<li><a href = "booking.html">Бронирование</a></li>
+		<li><a href = "profile.html">Личный кабинет</a></li>
+        <li><a href = "login.html">Вход</a></li>
+        <li><a href = "register.html">Регистрация</a></li>
+</ul>
+</nav>
+        </header>
+        
+        <div class="danie">
+            <h1>Данные о авто</h1>
+            <hr>
+            <label for="Идентификатор машины"><b>Идентификатор машины</b></label>
+            <input type="text" placeholder="Введите идентификатор машины" name="Идентификатор машины" required>
+        
+            <label for="Марка авто"><b>Марка авто</b></label>
+            <input type="text" placeholder="Введите марку авто" name="Марка авто" required>
+        
+            <label for="Название авто"><b>Название авто</b></label>
+            <input type="text" placeholder="Введите название авто" name="Название авто" required>
+            
+            <label for="Номер машины"><b>Номер машины</b></label>
+            <input type="text" placeholder="Введите номер машины" name="Номер машины" required>
+            <p>
+            <label for="Дата бронирования"><b>Дата бронирования</b></label>
+            </p>
+            <p>
+            <input type="date" placeholder="Введите дату бронирования" name="Дата бронирования" required>
+            </p>
+            <label for="Дата возврата"><b>Дата возврата</b></label>
+            <p>
+            <input type="date" placeholder="Введите дату возврата" name="Дата возврата" required>
+            </p> 
+            <label for="Стоимость бронирования за день"><b>Стоимость бронирования за день</b></label>
+            <input type="text" placeholder="Введите стоимость бронирования за деньназвание авто" name="Стоимость бронирования за день" required>
+            <p><strong>Филиал</strong></p>
+               <p><select name="color">
+                <option value="s2" selected></option>
+                <option value="s3">проспект Калинина, 15</option>
+                <option value="s3">улица Ярных, 49</option>
+                <option value="s3">Комсомольский проспект, 100/49</option>
+            </select> 
+            <hr>
+
+        </div>
+        <div class="danie">
+            <h1>Данные о клиенте</h1>
+            <hr>
+
+    <label for="Имя"><b>Имя</b></label>
+    <input type="text" placeholder="Введите имя" name="Имя" required>
+
+    <label for="Фамилия"><b>Фамилия</b></label>
+    <input type="text" placeholder="Введите фамилию" name="Фамилия" required>
+
+    <label for="Отчество"><b>Отчество</b></label>
+    <input type="text" placeholder="Введите отчество" name="Отчество" required>
+	
+	<label for="Серия паспорта"><b>Серия паспорта</b></label>
+    <input type="text" placeholder="Введите серию паспорта" name="Серия паспорта" required>
+	
+	<label for="Номер паспорта"><b>Номер паспорта</b></label>
+    <input type="text" placeholder="Введите номер паспорта" name="Номер паспорта" required>
+	
+	<label for="Телефон"><b>Телефон</b></label>
+    <input type="text" placeholder="Введите телефон" name="Телефон" required>
+	<p>
+	<label for="Дата рождения"><b>Дата рождения</b></label>
+</p>
+	<p>
+    <input type="date" placeholder="Введите дату рождения" name="Дата рождения" required>
+	</p>
+    <label for="Банковская карта"><b>Банковская карта</b></label>
+    <input type="password" maxlength="16" placeholder="Введите банковскую карту" name="Банковская карта" required>		
+    <hr>
+        </div>
+        <div class="danie">
+            <button>Забранировать еще автомобиль</button>
+            <div class="A">
+            <button><a href="car-select.html">Выбрать автомобиль</a></button>
+            <button><a href="cards.html">Выбрать банковскую карту</a></button>
+</div>
+            <button>Изменить тариф</button>
+            <hr>
+            <div class="danie"><h1>Финальная стоимость: 9900</h1></div>
+            <div class="A"></div>
+            <button><h2><a href="index.html">Забронировать</a></h2></button>
+        </div>
+        </div>
+
+        <div id="footer"> 
+            Телефон "8 (800) 555-35-35"
+               
+           </div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Выбор автомобиля</title>
+        <link rel="stylesheet" href="car-select.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="logo1.png" width="200" 
+                height="150"></a>
+<nav>
+<ul class = "menu">
+		<li><a href = "branches.html">Филиалы</a></li>
+		<li><a href = "booking.html">Бронирование</a></li>
+		<li><a href = "profile.html">Личный кабинет</a></li>
+        <li><a href = "login.html">Вход</a></li>
+        <li><a href = "register.html">Регистрация</a></li>
+</ul>
+</nav>
+        </header>
+        <form class="poisk">
+            <p><strong><h3>Выбор автомобиля</h3></strong></p>
+            <p><strong>Выберите марку и модель автомобиля</strong></p>
+            <p><select name="auto">
+                <option value="s2" selected></option>
+                <optgroup label="Nissan">
+                 <option value="r1">Almera</option>
+                 <option value="r2">Skyline</option>
+                 <option value="r3">Qashqai</option>
+                </optgroup>
+                <optgroup label="Kia">
+                 <option value="u1">Rio</option>
+                 <option value="u2">Sportage</option>
+                 <option value="u3">Ceed</option>
+                </optgroup>
+                <optgroup label="Toyota">
+                    <option value="u1">Camry</option>
+                    <option value="u2">RAV4</option>
+                    <option value="u3">Corolla</option>
+                   </optgroup>
+               </select></p>
+               <p><strong>Выберите цвет автомобиля</strong></p>
+               <p><select name="color">
+                <option value="s2" selected></option>
+                <option value="s3">Черный</option>
+                <option value="s3">Белый</option>
+                <option value="s3">Красный</option>
+                <option value="s3">Синий</option>
+                <option value="s3">Желтый</option>
+                <option value="s3">Серый</option>
+               </select> 
+               <p><strong>Выберите тип двигателя</strong></p>
+               <p><select name="dvigatel">
+                <option value="s2" selected></option>
+                <option value="s3">Бензиновый</option>
+                <option value="s3">Дизельный</option>
+               </select> 
+               <p><strong>Выберите коробку передач</strong></p>
+               <p><select name="korobka">
+                <option value="s2" selected></option>
+                <option value="s3">МКП</option>
+                <option value="s3">АКП</option>
+               </select> 
+            <p><input type="submit" value="Выбрать"></p>
+            <input type="submit" value="Отмена"></p>
+            
+        </form> 
+        <div id="footer"> 
+            Телефон "8 (800) 555-35-35"
+               
+           </div>
+    </body>
+</html>

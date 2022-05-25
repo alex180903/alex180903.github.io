@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Банковские карты</title>
+        <link rel="stylesheet" href="cards.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="logo1.png" width="200" 
+                height="150"></a>
+<nav>
+<ul class = "menu">
+		<li><a href = "branches.html">Филиалы</a></li>
+		<li><a href = "booking.html">Бронирование</a></li>
+		<li><a href = "profile.html">Личный кабинет</a></li>
+        <li><a href = "login.html">Вход</a></li>
+        <li><a href = "register.html">Регистрация</a></li>
+</ul>
+</nav>
+        </header>
+
+       <div class="card"> 
+        <div class="card"> 
+           <h1>Номер карты: 1111 1111 1111 1111</h1>
+        </div> 
+           <img src="visa.png" width="100" height="80">
+           <p><h3>Карта активна</h3></p>
+        <button>Удалить карту</button>
+        <div class="A">
+        <button><a href="#openModal">Добавить банковскую карту</a></button>
+    </div>
+</div>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Закрыть" class="close">X</a>
+        <form action="cards.html">
+            <div class="container">
+                <h1>Добавление карты</h1>
+                <p>Пожалуйста заполните форму чтобы добавить карту</p>
+                <hr>
+            
+                <label for="Номер карты"><b>Номер карты</b></label>
+                <input type="password" maxlength="16" placeholder="Введите номер карты" name="Номер карты" required>
+
+                <label for="Имя"><b>Имя</b></label>
+                <input type="text" placeholder="Введите имя" name="Имя" required>
+            
+                <label for="Фамилия"><b>Фамилия</b></label>
+                <input type="text" placeholder="Введите фамилию" name="Фамилия" required>
+
+                <label for="Дата окончания банковской карты"><b>Дата окончания банковской карты</b></label>
+                <p>
+                <input type="date" placeholder="Дату окончания банковской карты" name="Дата окончания банковской карты" required>
+                </p>
+                
+                <label for="Код CVV/CVC"><b>Код CVV/CVC</b></label>
+                <input type="password" maxlength="3" placeholder="Введите код CVV/CVC" name="Код CVV/CVC" required>
+                
+                <button type="submit" class="registerbtn">Добавить </button>
+              </div>
+              </form>
+	</div>
+</div>
+
+        <div id="footer"> 
+            Телефон "8 (800) 555-35-35"
+        </div>
+    </body>
+</html>

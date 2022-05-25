@@ -1,0 +1,89 @@
+
+body { margin: 0;
+    background: #bdbdbd  no-repeat;
+
+ }
+header{
+	width: 100%;
+    background: #000000;
+	height: 150px;
+    
+}
+.title{
+	font-size: 36px;
+	padding-top: 10px;
+	text-align: center;
+}
+.menu{
+	list-style: none;
+	position: absolute;
+	top: 10px;
+	left: 250px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+ul li a {
+    padding: 10px 80px;
+    text-transform: uppercase;
+text-decoration: none;
+color: #bdbdbd;
+font-weight: bold;
+}
+
+#footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: #000000; 
+    color: #bdbdbd; 
+    width: 100%; 
+}
+.doverie {
+    background: #000000;
+    border: 1px solid #B25538;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #bdbdbd
+}
+.poisk{
+    background: #000000;
+    border: 1px solid #B25538;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #bdbdbd
+}
+.news{
+    background: #000000;
+    border: 1px solid #B25538;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #bdbdbd
+}
+.punkt1{
+    background: #000000;
+    border: 1px solid #B25538;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #bdbdbd
+}
+.name{
+    background: #000000;
+    border: 1px solid #B25538;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #bdbdbd
+}
+
+
